@@ -7,9 +7,11 @@ const HeroBanner = () => {
   return (
     <StyledHeroBanner>
       <Layout>
-        <div className="flex items-center justify-center flex-col space-y- py-24">
-          <p className="text-4xl font-medium text-[#3C4245]">Welcome to</p>
-          <h1 className="text-6xl font-semibold text-[#62B6B7]">{`Anisa's Gallery`}</h1>
+        <div className="flex items-center justify-center flex-col py-4 md:py-24">
+          <p className="font-medium text-[#3C4245] text-2xl md:(text-4xl)">
+            Welcome to
+          </p>
+          <h1 className=" font-semibold text-[#62B6B7] text-2xl md:text-6xl">{`Anisa's Gallery`}</h1>
         </div>
       </Layout>
     </StyledHeroBanner>

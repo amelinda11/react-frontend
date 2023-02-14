@@ -1,6 +1,7 @@
 'use client';
-import HeroBanner from '@/pages/Homepage/HeroBanner';
-import Menu from '@/pages/Homepage/Menu';
+
+import HeroBanner from '@/components/Homepage/HeroBanner';
+import Menu from '@/components/Homepage/Menu';
 
 export default function Home() {
   return (

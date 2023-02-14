@@ -16,9 +16,9 @@ import Recipes from '../Recipes/Recipes';
 const Menu = () => {
   const label = 'All ratings are based on personal opinion';
   return (
-    <StyledTabMenuCustom className="my-9">
+    <StyledTabMenuCustom className="my-0 md:my-9">
       <Layout>
-        <Tabs>
+        <Tabs className="tabs_custom">
           <TabList mb="1em">
             <Tab>
               <div className="flex items-center">
@@ -70,6 +70,21 @@ const StyledTabMenuCustom = styled.div`
     &:hover {
       transition: all 0.4s ease-out;
       transform: scale(1.03);
+    }
+  }
+
+  @media (max-width: 760px) {
+    .chakra-tabs__tablist {
+      width: 100%;
+      overflow-x: scroll;
+      overflow-y: hidden;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .chakra-tabs__tab {
+      white-space: nowrap;
+      width: 100% !important;
     }
   }
 `;
