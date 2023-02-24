@@ -16,3 +16,11 @@ export const toBase64 = (str: string) =>
   typeof window === 'undefined'
     ? Buffer.from(str).toString('base64')
     : window.btoa(str);
+
+export const countStars = (stars: number) => {
+  let convertStars = [];
+  for (let idx = 0; idx < stars; idx++) {
+    convertStars.push(idx);
+  }
+  return convertStars;
+};

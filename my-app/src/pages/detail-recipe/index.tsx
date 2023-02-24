@@ -1,5 +1,8 @@
+'use client';
+
 import Head from 'next/head';
 import DetailRecipes from '@/components/Recipes/DetailRecipes';
+import './../../app/globals.css';
 
 export default function DetailRecipe() {
   return (

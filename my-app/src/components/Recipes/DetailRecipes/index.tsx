@@ -1,7 +1,15 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
+
+import HeroDetailRecipe from './HeroDetailRecipe';
+import ListDetailRecipe from './ListDetailRecipe';
 
 const DetailRecipes = () => {
-  return <div>Detail Recepi</div>;
+  return (
+    <>
+      <HeroDetailRecipe />
+      <ListDetailRecipe />
+    </>
+  );
 };
 
 export default DetailRecipes;
