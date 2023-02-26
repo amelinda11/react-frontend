@@ -1,8 +1,7 @@
 import React from 'react';
-import 'twin.macro';
 
 const ListDetailRecipe = () => {
-  return <div></div>;
+  return <div className="text-red-600">HAIA</div>;
 };
 
 export default ListDetailRecipe;
